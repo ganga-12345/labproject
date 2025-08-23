@@ -28,6 +28,19 @@
     </dependency>
   </dependencies>
 
+  <distributionManagement>
+    <repository>
+      <id>nexusRepo</id>
+      <name>Releases</name>
+      <url>http://3.92.226.166:8081/repository/labproject-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexusRepo</id>
+      <name>Snapshot</name>
+      <url>http://3.92.226.166:8081/repository/labproject-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <build>
     <finalName>labproject</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
