@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2><%= "how are you!" %></h2>
+<h2><%= "where are you now!" %></h2>
 </body>
 </html>
